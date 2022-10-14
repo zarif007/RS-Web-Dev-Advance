@@ -3,7 +3,7 @@
 # Class 1 (Basic JS)
 
 ## What is Javascript
-
+![Logo](https://res.cloudinary.com/practicaldev/image/fetch/s--iQ-MDsrC--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://833250.smushcdn.com/1694534/wp-content/uploads/2021/06/3.jpeg%3Flossy%3D1%26strip%3D1%26webp%3D1)
 JavaScript (often shortened to JS) is a lightweight, interpreted, object-oriented, scripting language, and is best known as the scripting language for Web pages, but it's used in many non-browser environments as well. JavaScript can update and change both HTML and CSS. JavaScript can calculate, manipulate and validate data.
 
 
@@ -25,6 +25,7 @@ let x = 5;
 var y = 7;
 const z = 10;
 ```
+![Logo](https://images.velog.io/images/jangws/post/557a4a2e-b7ba-4b22-bb8c-10615619321c/8vja483k9uy31.jpg)
 
 ## Array 
 
@@ -125,3 +126,5 @@ arr.map((value) => {
     console.log(value)
 })
 ```
+
+![Logo](https://what.thedailywtf.com/assets/uploads/files/1548873820399-23d6513b-3c4a-409b-bb11-4d98874de60f-image.png)
