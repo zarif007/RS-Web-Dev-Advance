@@ -11,7 +11,7 @@ JavaScript (often shortened to JS) is a lightweight, interpreted, object-oriente
 
 ### Types
 
-` int, double, string, array, object `
+` int, double, string, boolean, array, object `
 
 ` 4 Ways to Declare a JavaScript Variable:
 1. var
@@ -39,8 +39,13 @@ arr.pop();
 console.log(...arr)
 ```
 
-## Object
+### Array Destructuring
+```
+let [first, second, third] = arr;
+console.log(second)
+```
 
+## Object
 ```
 const student = {
     name: "Ghost",
@@ -53,6 +58,12 @@ const student = {
 ``` 
 const updatedStudent = { ...student, home: "Dhaka" }
 console.log(updatedStudent) 
+```
+
+### Object Destructuring
+```
+const { age } = student;
+console.log(age)
 ```
 
 ## Template literals (Template strings)
@@ -82,4 +93,35 @@ const sum1 = (x, y) => {
     return x + y;
 }
 console.log(sum1(2, 3))
+```
+
+## Conditional Statement
+```
+const ihave = 50;
+
+if(ihave >= 40){
+    console.log('Yes, I can buy')
+} else {
+    console.log('Sad, I cant buy')
+}
+```
+
+### Ternary operator
+```
+ihave >= 40 ? console.log('Yes, I can buy') : console.log('Sad, I cant buy')
+```
+
+## Loop 
+` For loop `
+```
+for(let i = 0; i < 5; i++){
+    console.log(i)
+}
+```
+
+` Map `
+```
+arr.map((value) => {
+    console.log(value)
+})
 ```
