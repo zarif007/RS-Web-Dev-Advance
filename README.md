@@ -76,6 +76,8 @@ let name = "Ghost"
 
 console.log(`Hi i am ${name}`)
 
+# Class 2 (Basic JS)
+
 ## Function
 
 ```
