@@ -131,7 +131,7 @@ arr.map((value) => {
 ```
 
 ## Imports and Exports 
-### Named Import Exports
+### Named Import Export
 
 ` Exporting `
 ``` js
