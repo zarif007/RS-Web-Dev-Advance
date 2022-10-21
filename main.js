@@ -1,3 +1,11 @@
+
+import {try2, try3} from './folder1/import2.js';
+import try1 from './import1.js';
+try1()
+try2()
+try3()
+
+
 let x = 5;
 const y = 10;
 

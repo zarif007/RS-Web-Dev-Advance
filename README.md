@@ -29,25 +29,25 @@ const z = 10;
 
 ## Array 
 
-```
+``` js
 let arr = [1, 2, 3, 4, '4343']
 arr.push('ABC');
 arr.pop();
 ```
 
 ### Spread operator 
-```
+``` js
 console.log(...arr)
 ```
 
 ### Array Destructuring
-```
+``` js
 let [first, second, third] = arr;
 console.log(second)
 ```
 
 ## Object
-```
+``` js
 const student = {
     name: "Ghost",
     age: 23,
@@ -56,31 +56,32 @@ const student = {
 ```
 
 ### Spread operator 
-``` 
+```  js
 const updatedStudent = { ...student, home: "Dhaka" }
 console.log(updatedStudent) 
 ```
 
 ### Object Destructuring
-```
+``` js
 const { age } = student;
 console.log(age)
 ```
 
 ## Template literals (Template strings)
 
+``` js
 console.log(`string text line 1
  string text line 2`)
 
 let name = "Ghost"
 
-console.log(`Hi i am ${name}`)
+console.log(`Hi i am ${name}`) ```
 
 # Class 2 (Basic JS)
 
 ## Function
 
-```
+``` js
 function sum(x, y) {
     console.log(x, y);
     return x + y;
@@ -90,7 +91,7 @@ console.log(sum(2, 3))
 
 ### Big Arrow function
 
-```
+``` js
 const sum1 = (x, y) => {
     console.log(x, y);
     return x + y;
@@ -99,7 +100,7 @@ console.log(sum1(2, 3))
 ```
 
 ## Conditional Statement
-```
+``` js
 const ihave = 50;
 
 if(ihave >= 40){
@@ -110,23 +111,52 @@ if(ihave >= 40){
 ```
 
 ### Ternary operator
-```
+``` js
 ihave >= 40 ? console.log('Yes, I can buy') : console.log('Sad, I cant buy')
 ```
 
 ## Loop 
 ` For loop `
-```
+``` js
 for(let i = 0; i < 5; i++){
     console.log(i)
 }
 ```
 
 ` Map `
-```
+``` js
 arr.map((value) => {
     console.log(value)
 })
 ```
+
+## Imports and Exports 
+### Named Import Exports
+
+` Exporting `
+``` js
+export const named1 = () => {}
+
+export const named2 = () => {}
+```
+
+` Importing `
+``` js
+import {named1, named2} from './folder1/import2.js';
+```
+
+### Default Import Export
+
+` Exporting `
+``` js
+const default1 = () => {}
+export default default1
+```
+
+` Importing `
+``` js
+import default1 from './import1.js';
+```
+
 
 ![Logo](https://what.thedailywtf.com/assets/uploads/files/1548873820399-23d6513b-3c4a-409b-bb11-4d98874de60f-image.png)
