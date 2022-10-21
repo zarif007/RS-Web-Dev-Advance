@@ -75,7 +75,8 @@ console.log(`string text line 1
 
 let name = "Ghost"
 
-console.log(`Hi i am ${name}`) ```
+console.log(`Hi i am ${name}`) 
+```
 
 # Class 2 (Basic JS)
 
