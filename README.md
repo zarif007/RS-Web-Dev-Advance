@@ -161,3 +161,25 @@ import default1 from './import1.js';
 
 
 ![Logo](https://what.thedailywtf.com/assets/uploads/files/1548873820399-23d6513b-3c4a-409b-bb11-4d98874de60f-image.png)
+
+
+# Class 3 (ReactJS 01)
+
+` What is ReactJs `
+![Logo](https://gearheart.io/uploads/SPA_1_768x454_d8cac8be1e_6408baa279.png)
+` What is Component `
+![Logo](https://www.techdiagonal.com/wp-content/uploads/2019/08/React-components-blog-image.jpg)
+` Class vs function `
+` https://www.geeksforgeeks.org/differences-between-functional-components-and-class-components-in-react/ `
+
+```
+From VS code
+npx create-react-app my-app
+cd my-app
+npm start
+```
+
+```
+From Online IDE
+https://codedamn.com/online-compiler/reactjs
+```
