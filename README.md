@@ -187,3 +187,46 @@ https://codedamn.com/online-compiler/reactjs
 
 ### Component Break down
 ![Logo](https://i.ibb.co/Bc3Ky2W/Ca33pture.png)
+
+### Props 
+``` Js
+const Hello = (props) => {
+
+  const value = 5;
+  const getTheValue = () => {}
+
+  return (
+    <div>
+      <h2>Hi </h2>
+      <h1>{props.name}</h1>
+      <h3>{value}</h3>
+    </div>
+  )
+}
+
+<Hello name={"Zarif"}>
+<Hello name={"CR7"}>
+```
+
+#### Event 
+```Js
+<button onClick={() => alert(hi)} />
+```
+
+### Hooks 
+```
+React Hooks are simple JavaScript functions that we can use to isolate the reusable part from a functional component. 
+```
+
+#### useState Hook
+
+```Js
+import { useState } from 'react'
+
+const [ number, setNumber ] = useState(0);
+
+the first part (number) is the actual value
+the second part (setNumber) is used to assign value to the number
+useState(0), here is 0 is the initial value
+```
+
