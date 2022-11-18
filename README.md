@@ -204,8 +204,8 @@ const Hello = (props) => {
   )
 }
 
-<Hello name={"Zarif"}>
-<Hello name={"CR7"}>
+<Hello name={"Zarif"} />
+<Hello name={"CR7"} />
 ```
 
 #### Event 
@@ -228,5 +228,23 @@ const [ number, setNumber ] = useState(0);
 the first part (number) is the actual value
 the second part (setNumber) is used to assign value to the number
 useState(0), here is 0 is the initial value
+
+Updating the Number
+
+number = number + 100 ❌
+setNumber(number + 100) ✔️ 
 ```
 
+#### useEffect Hook
+
+```Js
+useEffect(() => {
+    alert(value);
+}, [value])
+
+() => {
+    The logics
+}
+
+[] holds the dependencies
+```
