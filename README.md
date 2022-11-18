@@ -165,8 +165,10 @@ import default1 from './import1.js';
 
 # Class 3 (ReactJS 01)
 
-` What is ReactJs `
+``` What is ReactJs 
 ![Logo](https://gearheart.io/uploads/SPA_1_768x454_d8cac8be1e_6408baa279.png)
+```
+
 ` What is Component `
 ![Logo](https://www.techdiagonal.com/wp-content/uploads/2019/08/React-components-blog-image.jpg)
 ` Class vs function `
