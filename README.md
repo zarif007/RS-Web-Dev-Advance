@@ -213,6 +213,8 @@ const Hello = (props) => {
 <button onClick={() => alert(hi)} />
 ```
 
+# Class 4 (ReactJS 02)
+
 ### Hooks 
 ```
 React Hooks are simple JavaScript functions that we can use to isolate the reusable part from a functional component. 
