@@ -250,3 +250,27 @@ useEffect(() => {
 
 [] holds the dependencies
 ```
+
+# Class 4 (Project 01)
+
+```
+npx create-react-app movie-app
+cd movie-app
+npm start
+```
+
+![Logo](https://www.seobility.net/en/wiki/images/f/f1/Rest-API.png)
+
+```
+omDB Api key
+https://www.omdbapi.com/apikey.aspx
+```
+
+```
+My api key: 4a98c271
+```
+
+```
+Endpoints:
+http://www.omdbapi.com?apikey=4a98c271/s=movie_title
+```
