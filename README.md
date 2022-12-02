@@ -251,7 +251,7 @@ useEffect(() => {
 [] holds the dependencies
 ```
 
-# Class 4 (Project 01)
+# Class 5 (Project 01)
 
 ```
 npx create-react-app movie-app
@@ -274,3 +274,9 @@ My api key: 4a98c271
 Endpoints:
 http://www.omdbapi.com?apikey=4a98c271/s=movie_title
 ```
+
+```JS
+Fetching the movies data
+const movies = await (await fetch(`${API_URL}&s="${title}"`)).json()
+```
+
