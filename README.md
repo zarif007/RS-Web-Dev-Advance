@@ -305,3 +305,26 @@ https://api.rawg.io/api/games?search=gameName&key=29b8564f44d7476c88ad2aedb1eaac
 Fetching the games data
 const games = await (await fetch(`https://api.rawg.io/api/games?search=${gameName}&key=29b8564f44d7476c88ad2aedb1eaac91`)).json()
 ```
+
+# Roadmap / what's next 🛣️
+
+![Logo](roadmap.PNG)
+
+## Immediate Next step (Take either) 👇
+```
+1. Learn Python > Learn Django > Develop few fullstack WebApps with Django, HTML, CSS, Bootstrap
+```
+```
+2. Practice JavaScript(ES6) > Practice ReactJs > Develop few frontend WebApps with ReactJS, HTML, CSS
+```
+
+` Take 4 - 6 months to follow a step. Follow YouTube videos to develop first few projects  `
+
+## Pro tips 💡
+```
+1. Explore stuffs but Learn one thing at a time. 
+2. No need to master anything at this moment. 
+3. Learn by doing projects.
+4. Develop as much projects as you can.
+5. No need to optimize anything at the first try. 
+````
