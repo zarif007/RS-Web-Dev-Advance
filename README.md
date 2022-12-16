@@ -280,3 +280,28 @@ Fetching the movies data
 const movies = await (await fetch(`${API_URL}&s="${title}"`)).json()
 ```
 
+# Class 6 (Project 02)
+
+```
+npx create-react-app game-app
+cd game-app
+npm start
+```
+
+```
+omDB Api key
+https://rawg.io/apidocs
+```
+
+```
+My api key: 29b8564f44d7476c88ad2aedb1eaac91
+```
+
+```
+Endpoints:
+https://api.rawg.io/api/games?search=gameName&key=29b8564f44d7476c88ad2aedb1eaac91
+```
+```JS
+Fetching the games data
+const games = await (await fetch(`https://api.rawg.io/api/games?search=${gameName}&key=29b8564f44d7476c88ad2aedb1eaac91`)).json()
+```
