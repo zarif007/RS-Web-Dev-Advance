@@ -307,7 +307,7 @@ const games = await (await fetch(`https://api.rawg.io/api/games?search=${gameNam
 ```
 
 # Roadmap / what's next 🛣️ -->
-
+<!-- 
 ![Logo](roadmap.PNG)
 
 ## Immediate Next step (Take either) 👇
@@ -327,4 +327,4 @@ const games = await (await fetch(`https://api.rawg.io/api/games?search=${gameNam
 3. Learn by doing projects.
 4. Develop as much projects as you can.
 5. No need to optimize anything at the first try. 
-````
+```` -->
