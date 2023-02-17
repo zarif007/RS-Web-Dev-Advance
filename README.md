@@ -78,7 +78,7 @@ let name = "Ghost"
 console.log(`Hi i am ${name}`) 
 ```
 
-# Class 2 (Basic JS)
+<!-- # Class 2 (Basic JS)
 
 ## Function
 
@@ -306,7 +306,7 @@ Fetching the games data
 const games = await (await fetch(`https://api.rawg.io/api/games?search=${gameName}&key=29b8564f44d7476c88ad2aedb1eaac91`)).json()
 ```
 
-# Roadmap / what's next 🛣️
+# Roadmap / what's next 🛣️ -->
 
 ![Logo](roadmap.PNG)
 

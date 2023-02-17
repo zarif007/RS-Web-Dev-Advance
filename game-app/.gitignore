@@ -5,6 +5,12 @@
 /.pnp
 .pnp.js
 
+
+
+game-app
+demo-app
+movie-app
+
 # testing
 /coverage
 
