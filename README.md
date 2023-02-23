@@ -78,7 +78,7 @@ let name = "Ghost"
 console.log(`Hi i am ${name}`) 
 ```
 
-<!-- # Class 2 (Basic JS)
+# Class 2 (Basic JS)
 
 ## Function
 
@@ -162,7 +162,7 @@ import default1 from './import1.js';
 
 ![Logo](https://what.thedailywtf.com/assets/uploads/files/1548873820399-23d6513b-3c4a-409b-bb11-4d98874de60f-image.png)
 
-
+<--
 # Class 3 (ReactJS 01)
 
 ## What is ReactJs?
