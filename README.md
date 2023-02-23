@@ -129,6 +129,18 @@ for(let i = 0; i < 5; i++){
 arr.map((value) => {
     console.log(value)
 })
+
+```
+` Filter `
+``` js
+const filteredValues = arr.filter(value => value === 4)
+console.log(filteredValues)
+```
+
+` Find `
+``` js
+const findValue = arr.find(value => value === 41)
+console.log(findValue)
 ```
 
 ## Imports and Exports 
@@ -136,27 +148,29 @@ arr.map((value) => {
 
 ` Exporting `
 ``` js
-export const named1 = () => {}
+export const sum = (a, b) => a + b;
 
-export const named2 = () => {}
+export const sub = (a, b) => a - b;
 ```
 
 ` Importing `
 ``` js
-import {named1, named2} from './folder1/import2.js';
+import { sum, sub } from './folder/main.js'
 ```
 
 ### Default Import Export
 
 ` Exporting `
 ``` js
-const default1 = () => {}
-export default default1
+const mult = (a, b) => a * b;
+export default mult
 ```
 
 ` Importing `
 ``` js
-import default1 from './import1.js';
+import mult from './folder/main.js'
+
+console.log(mult(6, 7))
 ```
 
 
