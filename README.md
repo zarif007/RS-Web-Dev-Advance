@@ -176,13 +176,13 @@ console.log(mult(6, 7))
 
 ![Logo](https://what.thedailywtf.com/assets/uploads/files/1548873820399-23d6513b-3c4a-409b-bb11-4d98874de60f-image.png)
 
-<--
+
 # Class 3 (ReactJS 01)
 
 ## What is ReactJs?
 ![Logo](https://gearheart.io/uploads/SPA_1_768x454_d8cac8be1e_6408baa279.png)
 ## What is React Component?
-![Logo](https://www.techdiagonal.com/wp-content/uploads/2019/08/React-components-blog-image.jpg)
+![Logo](https://miro.medium.com/max/1400/1*U25ZZmTZ3vgfT7i45suzrw.png)
 ## Class vs function?
 ` https://www.geeksforgeeks.org/differences-between-functional-components-and-class-components-in-react/ `
 
@@ -226,7 +226,7 @@ const Hello = (props) => {
 ```Js
 <button onClick={() => alert(hi)} />
 ```
-
+<!-- 
 # Class 4 (ReactJS 02)
 
 ### Hooks 
@@ -320,8 +320,8 @@ Fetching the games data
 const games = await (await fetch(`https://api.rawg.io/api/games?search=${gameName}&key=29b8564f44d7476c88ad2aedb1eaac91`)).json()
 ```
 
-# Roadmap / what's next 🛣️ -->
-<!-- 
+# Roadmap / what's next 🛣️ 
+
 ![Logo](roadmap.PNG)
 
 ## Immediate Next step (Take either) 👇
@@ -341,4 +341,4 @@ const games = await (await fetch(`https://api.rawg.io/api/games?search=${gameNam
 3. Learn by doing projects.
 4. Develop as much projects as you can.
 5. No need to optimize anything at the first try. 
-```` -->
+````  -->
