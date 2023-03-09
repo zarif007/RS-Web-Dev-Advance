@@ -226,7 +226,7 @@ const Hello = (props) => {
 ```Js
 <button onClick={() => alert(hi)} />
 ```
-<!-- 
+
 # Class 4 (ReactJS 02)
 
 ### Hooks 
@@ -265,6 +265,7 @@ useEffect(() => {
 [] holds the dependencies
 ```
 
+<!-- 
 # Class 5 (Project 01)
 
 ```
