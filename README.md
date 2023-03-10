@@ -322,6 +322,7 @@ Fetching the games data
 const games = await (await fetch(`https://api.rawg.io/api/games?search=${gameName}&key=29b8564f44d7476c88ad2aedb1eaac91`)).json()
 ```
 
+
 <!-- 
 # Roadmap / what's next 🛣️ 
 
