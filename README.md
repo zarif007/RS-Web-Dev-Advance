@@ -227,7 +227,7 @@ const Hello = (props) => {
 <button onClick={() => alert(hi)} />
 ```
 
-# Class 4 (ReactJS 02)
+# Class 4 & 5 (ReactJS 02)
 
 ### Hooks 
 ```
@@ -296,7 +296,7 @@ const movies = await (await fetch(`${API_URL}&s="${title}"`)).json()
 ``` -->
 
 
-# Class 5 (Project 01)
+# Class 6 (Project 01)
 
 ```
 npx create-react-app game-app
@@ -305,7 +305,7 @@ npm start
 ```
 
 ```
-omDB Api key
+RAWG game Api key
 https://rawg.io/apidocs
 ```
 
@@ -323,14 +323,15 @@ const games = await (await fetch(`https://api.rawg.io/api/games?search=${gameNam
 ```
 
 
-<!-- 
+
 # Roadmap / what's next 🛣️ 
 
 ![Logo](roadmap.PNG)
 
 ## Immediate Next step (Take either) 👇
 ```
-1. Learn Python > Learn Django > Develop few fullstack WebApps with Django, HTML, CSS, Bootstrap
+1. Learn Python > Learn Django > Develop few fullstack WebApps with Django, HTML, CSS 
+    or Django REST Framework and ReactJS (even better)
 ```
 ```
 2. Practice JavaScript(ES6) > Practice ReactJs > Develop few frontend WebApps with ReactJS, HTML, CSS
@@ -345,4 +346,4 @@ const games = await (await fetch(`https://api.rawg.io/api/games?search=${gameNam
 3. Learn by doing projects.
 4. Develop as much projects as you can.
 5. No need to optimize anything at the first try. 
-````  -->
+```` 

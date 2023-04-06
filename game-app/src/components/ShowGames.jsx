@@ -4,6 +4,7 @@ import { useEffect } from 'react';
 const ShowGames = () => {
   
   const [allGames, setAllGames] = useState([]);
+  const [searchedGame, setSearchedGame] = useState([]);
   const getGames = async (gameName) => {
     const games = await (await fetch(`https://api.rawg.io/api/games?search=${gameName}&key=29b8564f44d7476c88ad2aedb1eaac91`)).json()
     console.log(games.results);
@@ -14,7 +15,8 @@ const ShowGames = () => {
   }, [])
   return (
     <div>
-      <input onChange={(e) => getGames(e.target.value)} placeholder="Search Game" />
+      <input onChange={(e) => setSearchedGame(e.target.value)} placeholder="Search Game" />
+      <button onClick={(e) => getGames(searchedGame)} >Search</button>
       {
         allGames.map(game => {
           return (
