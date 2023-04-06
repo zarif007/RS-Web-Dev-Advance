@@ -334,7 +334,7 @@ const games = await (await fetch(`https://api.rawg.io/api/games?search=${gameNam
     or Django REST Framework and ReactJS (even better)
 ```
 ```
-2. Practice JavaScript(ES6) > Practice ReactJs > Develop few frontend WebApps with ReactJS, HTML, CSS
+2. Practice JavaScript(ES6) > Practice ReactJs > Develop few frontend WebApps with ReactJS
 ```
 
 ` Take 4 - 6 months to follow a step. Follow YouTube videos to develop first few projects  `
