@@ -1,27 +1,21 @@
-
-import {try2, try3} from './folder1/import2.js';
-import try1 from './import1.js';
-try1()
-try2()
-try3()
-
+// Class 1 Content
+// Variables
 
 let x = 5;
-const y = 10;
+var y = 7;
+const z = 10;
 
-let arr = [1, 2, 3, 4, '4343']
-console.log(arr[3])
+// Array
 
-arr.map((value) => {
-    console.log(value)
-})
-
-let [first, second, third] = arr;
-
-console.log(second)
-
+let arr = [1, 2, 3, 4, '4343', 99]
 arr.push('ABC');
+arr.pop();
+arr.splice(1, 1)
+console.log(arr)
+
 console.log(...arr)
+
+// Object
 
 const student = {
     name: "Ghost",
@@ -29,36 +23,17 @@ const student = {
     semester: 12,
 }
 
+const updatedStudent = { ...student, home: "Dhaka" }
+console.log(updatedStudent) 
+
 const { age } = student;
 console.log(age)
 
-const updatedStudent = { ...student, home: "Dhaka" }
+// Template literals
 
-console.log(updatedStudent)
+console.log(`string text line 1
+ string text line 2`)
 
-function sum(x, y) {
-    console.log(x, y);
-    return x + y;
-}
+let name = "Ghost"
 
-const sum1 = (x, y) => {
-    console.log(x, y);
-    return x + y;
-}
-
-console.log(sum(2, 3))
-console.log(sum1(2, 3))
-
-for(let i = 0; i < 5; i++){
-    console.log(i)
-}
-
-const ihave = 50;
-
-if(ihave >= 40){
-    console.log('Yes, I can buy')
-} else {
-    console.log('Sad, I cant buy')
-}
-
-ihave >= 40 ? console.log('Yes, I can buy') : console.log('Sad, I cant buy')
+console.log(`Hi i am ${name}`) 

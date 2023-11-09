@@ -32,7 +32,10 @@ const z = 10;
 ``` js
 let arr = [1, 2, 3, 4, '4343']
 arr.push('ABC');
+// Remove last element
 arr.pop();
+// Remove any element by index
+arr.splice(index, 1)
 ```
 
 ### Spread operator 
